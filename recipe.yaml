@@ -112,7 +112,7 @@ tasks:
     src: https://github.com/renzuzu/renzu_vehicleshop
     dest: ./resources/[renzu]/renzu_vehicleshop
   - action: download_github
-    src: https://github.com/renzuzu/renzu_garage
+    src: https://github.com/Dokman/renzu_garage
     dest: ./resources/[renzu]/renzu_garage
 
   ## GCPhone stuff
