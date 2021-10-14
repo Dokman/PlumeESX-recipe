@@ -2,7 +2,7 @@ $engine: 3
 $onesync: legacy
 name: PlumeESXLegacy
 version: 3.1.0
-author: Tabarra & SaltySea
+author: Tabarra & SaltySea & Dokman
 description: A full featured and highly configurable yet lightweight ESX Legacy base that can be easily extended. 
 
 tasks:
@@ -36,11 +36,6 @@ tasks:
     src: https://github.com/Dokman/esx-legacy
     ref: main
     dest: ./resources/[legacy]
-
-  - action: download_github
-    src: https://github.com/tabarra/simpledrift
-    ref: 2ed57c224ae70549fbcfccc957a00ff496b78c77
-    dest: ./resources/simpledrift
 
   - action: download_github
     src: https://github.com/Bob74/bob74_ipl
@@ -87,6 +82,18 @@ tasks:
   - action: download_github
     src: https://github.com/renzuzu/renzu_jobs
     dest: ./resources/[renzu]/renzu_jobs
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_fuel
+    dest: ./resources/[renzu]/renzu_fuel
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_clothes
+    dest: ./resources/[renzu]/renzu_clothes
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_garage
+    dest: ./resources/[renzu]/renzu_grage
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_vehicleshop
+    dest: ./resources/[renzu]/renzu_vehicleshop
 
   ## GCPhone stuff
   - action: download_file
