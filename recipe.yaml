@@ -102,7 +102,7 @@ tasks:
     dest: ./resources/[renzu]/renzu_clothes
   - action: download_github
     src: https://github.com/renzuzu/renzu_garage
-    dest: ./resources/[renzu]/renzu_grage
+    dest: ./resources/[renzu]/renzu_garage
   - action: download_github
     src: https://github.com/renzuzu/renzu_vehicleshop
     dest: ./resources/[renzu]/renzu_vehicleshop
