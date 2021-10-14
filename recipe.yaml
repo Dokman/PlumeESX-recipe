@@ -75,37 +75,47 @@ tasks:
   ## Renzu Scripts
   - action: download_github
     src: https://github.com/renzuzu/renzu_notify
+    ref: main
     dest: ./resources/[renzu]/renzu_notify
   - action: download_github
     src: https://github.com/renzuzu/renzu_popui
+    ref: main
     dest: ./resources/[renzu]/renzu_popui
   - action: download_github
     src: https://github.com/renzuzu/renzu_contextmenu
+    ref: main
     dest: ./resources/[renzu]/renzu_contextmenu
   - action: download_github
     src: https://github.com/renzuzu/renzu_drawmarkerui
+    ref: main
     dest: ./resources/[renzu]/renzu_drawmarkerui
   - action: download_github
     src: https://github.com/renzuzu/renzu_progressbar
+    ref: main
     dest: ./resources/[renzu]/renzu_progressbar
   - action: download_github
     src: https://github.com/renzuzu/renzu_jobs
+    ref: main
     dest: ./resources/[renzu]/renzu_jobs
   - action: download_github
     src: https://github.com/renzuzu/renzu_customs
+    ref: main
     dest: ./resources/[renzu]/renzu_customs
   - action: download_github
     src: https://github.com/renzuzu/renzu_fuel
+    ref: main
     dest: ./resources/[renzu]/renzu_fuel
   - action: download_github
     src: https://github.com/renzuzu/renzu_clothes
+    ref: main
     dest: ./resources/[renzu]/renzu_clothes
-  - action: download_github
-    src: https://github.com/renzuzu/renzu_garage
-    dest: ./resources/[renzu]/renzu_garage
   - action: download_github
     src: https://github.com/renzuzu/renzu_vehicleshop
     dest: ./resources/[renzu]/renzu_vehicleshop
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_garage
+    ref: main
+    dest: ./resources/[renzu]/renzu_garage
 
   ## GCPhone stuff
   - action: download_file
