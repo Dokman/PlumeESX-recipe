@@ -77,6 +77,16 @@ tasks:
     ref: 0c804de3cd497d70d8ae76bf1699d76d4c9d94fc
     dest: ./resources/mdt
 
+  ## Renzu Scripts
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_notify
+    dest: ./resources/[renzu]/renzu_notify
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_popui.git
+    dest: ./resources/[renzu]/renzu_popui
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_jobs
+    dest: ./resources/[renzu]/renzu_jobs
 
   ## GCPhone stuff
   - action: download_file
