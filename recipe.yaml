@@ -34,7 +34,7 @@ tasks:
   # Download basic resources and ESX dependencies
   - action: download_github
     src: https://github.com/Dokman/esx-legacy
-    ref: cae7d8e7fddf02658dcbe858d61b5eb8cfcffca8
+    ref: main
     dest: ./resources/[legacy]
 
   - action: download_github
