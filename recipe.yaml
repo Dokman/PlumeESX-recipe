@@ -77,11 +77,23 @@ tasks:
     src: https://github.com/renzuzu/renzu_notify
     dest: ./resources/[renzu]/renzu_notify
   - action: download_github
-    src: https://github.com/renzuzu/renzu_popui.git
+    src: https://github.com/renzuzu/renzu_popui
     dest: ./resources/[renzu]/renzu_popui
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_contextmenu
+    dest: ./resources/[renzu]/renzu_contextmenu
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_drawmarkerui
+    dest: ./resources/[renzu]/renzu_drawmarkerui
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_progressbar
+    dest: ./resources/[renzu]/renzu_progressbar
   - action: download_github
     src: https://github.com/renzuzu/renzu_jobs
     dest: ./resources/[renzu]/renzu_jobs
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_customs
+    dest: ./resources/[renzu]/renzu_customs
   - action: download_github
     src: https://github.com/renzuzu/renzu_fuel
     dest: ./resources/[renzu]/renzu_fuel
@@ -108,11 +120,16 @@ tasks:
 
 
   ## Downloading & Patching configs: cosmo hud
+  ##- action: download_github
+  ##  src: https://github.com/nojdh/cosmo_hud
+  ##  ref: eed8fd7b8cbe8a02ae7339d4dee05b5d56a8097c
+  ##  subpath: cosmo_hud
+  ##  dest: ./resources/[hud]/cosmo_hud
+  
   - action: download_github
-    src: https://github.com/nojdh/cosmo_hud
-    ref: eed8fd7b8cbe8a02ae7339d4dee05b5d56a8097c
-    subpath: cosmo_hud
-    dest: ./resources/[hud]/cosmo_hud
+    src: https://github.com/renzuzu/renzu_hud
+    subpath: renzu_hud
+    dest: ./resources/[hud]/renzu_hud
 
   - action: replace_string
     file: ./resources/shotspotter/config.lua
@@ -124,10 +141,10 @@ tasks:
     search: "    Config.Display        = true"
     replace: "    Config.Display        = false"
 
-  - action: replace_string
-    file: ./resources/[hud]/cosmo_hud/config.lua
-    search: 'Config.AlwaysShowRadar = false'
-    replace: 'Config.AlwaysShowRadar = true'
+  # - action: replace_string
+    # file: ./resources/[hud]/cosmo_hud/config.lua
+    # search: 'Config.AlwaysShowRadar = false'
+    # replace: 'Config.AlwaysShowRadar = true'
 
   ## Patching configs: esx_basicneeds
   - action: replace_string
