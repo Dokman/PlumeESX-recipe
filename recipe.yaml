@@ -103,7 +103,6 @@ tasks:
     dest: ./resources/[renzu]/renzu_customs
   - action: download_github
     src: https://github.com/renzuzu/renzu_fuel
-    ref: main
     dest: ./resources/[renzu]/renzu_fuel
   - action: download_github
     src: https://github.com/renzuzu/renzu_clothes
@@ -114,7 +113,6 @@ tasks:
     dest: ./resources/[renzu]/renzu_vehicleshop
   - action: download_github
     src: https://github.com/renzuzu/renzu_garage
-    ref: main
     dest: ./resources/[renzu]/renzu_garage
 
   ## GCPhone stuff
