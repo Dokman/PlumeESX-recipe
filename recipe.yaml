@@ -100,7 +100,7 @@ tasks:
   - action: replace_string
     file: ./resources/[renzu]/renzu_jobs/config.lua
     search: "config.Mysql = 'ghmattisql'"
-    replace: "config.Mysql = 'mysqlasync'"
+    replace: "config.Mysql = 'mysql-async'"
   - action: download_github
     src: https://github.com/renzuzu/renzu_customs
     ref: main
