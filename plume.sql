@@ -1,5 +1,5 @@
 /*
-SQLyog Ultimate v13.1.1 (64 bit)
+SQLyog Ultimate
 MySQL - 5.7.35-log : Database - esx
 *********************************************************************
 */
@@ -717,6 +717,32 @@ CREATE TABLE `renzu_customs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `renzu_customs` */
+
+/*Table structure for table `renzu_jobs` */
+
+DROP TABLE IF EXISTS `renzu_jobs`;
+
+CREATE TABLE `renzu_jobs` (
+  `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `accounts` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin,
+  `inventory` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin,
+  `garage` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin,
+  PRIMARY KEY (`name`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/*Data for the table `renzu_jobs` */
+
+/*Table structure for table `saveclothes` */
+
+DROP TABLE IF EXISTS `saveclothes`;
+
+CREATE TABLE `saveclothes` (
+  `identifier` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `wardrobe` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin,
+  PRIMARY KEY (`identifier`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/*Data for the table `saveclothes` */
 
 /*Table structure for table `shops` */
 
