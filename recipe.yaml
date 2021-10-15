@@ -97,6 +97,10 @@ tasks:
     src: https://github.com/renzuzu/renzu_jobs
     ref: main
     dest: ./resources/[renzu]/renzu_jobs
+  - action: replace_string
+    file: ./resources/[renzu]/renzu_jobs/config.lua
+    search: "config.Mysql = 'ghmattisql'"
+    replace: "config.Mysql = 'mysqlasync'"
   - action: download_github
     src: https://github.com/renzuzu/renzu_customs
     ref: main
