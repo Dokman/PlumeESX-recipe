@@ -1,10 +1,10 @@
-# PlumeESX-recipe
+# RenzuESX-recipe
 
 [![Plume ESX Video Tutorial](https://i.imgur.com/jjUbS1Z.png)](https://www.youtube.com/watch?v=iGfwUCO0RZQ)
 
 **Description:** A full featured and highly configurable yet lightweight ESX Legacy base that can be easily extended.  
 
-This recipe runs inside [**txAdmin**](https://github.com/tabarra/txAdmin).  
+**This Recipe is not runnning in TxAdmin you need to configure it manually**
 Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAdmin/blob/master/docs/recipe.md).
 
 ## TODO:
@@ -13,6 +13,15 @@ Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAd
 
 ## Changelog
 
+### Additions
+- renzu_customs 
+- renzu_garage
+- renzu_clothes
+- renzu_hud
+- renzu_jobs
+- Included all dependencies for a full experiencie
+
+### Based on PlumeESX
 ### v3.0.0
 - Updated recipe to work with NEW ESX Legacy
 - Added new multicharacter system
