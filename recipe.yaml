@@ -64,7 +64,6 @@ tasks:
 
   - action: download_github
     src: https://github.com/Blumlaut/EasyAdmin
-    ref: main
     dest: ./resources/EasyAdmin
 
   - action: download_github
