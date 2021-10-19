@@ -115,9 +115,12 @@ tasks:
   - action: download_github
     src: https://github.com/renzuzu/renzu_vehicleshop
     dest: ./resources/[renzu]/renzu_vehicleshop
-  - action: move_path
-    src: ./tmp/plume_esx/renzu_garage
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_garage
     dest: ./resources/[renzu]/renzu_garage
+  #- action: move_path
+   # src: ./tmp/plume_esx/renzu_garage
+   # dest: ./resources/[renzu]/renzu_garage
 
   ## GCPhone stuff
   - action: download_file
