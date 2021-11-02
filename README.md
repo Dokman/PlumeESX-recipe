@@ -10,15 +10,20 @@ Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAd
 ## TODO:
 - [ ] add linden inventory
 - [ ] Maybe add this: https://github.com/czsquizer/sqz_carmenu
+- [ ] update database
 
 ## Changelog
 
 ### Additions
 - renzu_customs 
+  - renzu_engine
+  - renzu_nitro
+  - renzu_stancer
 - renzu_garage
 - renzu_clothes
 - renzu_hud
 - renzu_jobs
+- renzu_lockgame
 - Included all dependencies for a full experiencie
 
 ### Based on PlumeESX
