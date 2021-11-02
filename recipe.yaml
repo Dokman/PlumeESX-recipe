@@ -124,6 +124,9 @@ tasks:
     src: https://github.com/renzuzu/renzu_nitro
     dest: ./resources/[renzu]/renzu_nitro
   - action: download_github
+    src: https://github.com/renzuzu/renzu_lockgame
+    dest: ./resources/[renzu]/renzu_lockgame
+  - action: download_github
     src: https://github.com/renzuzu/renzu_garage
     dest: ./resources/[renzu]/renzu_garage
   #- action: move_path
