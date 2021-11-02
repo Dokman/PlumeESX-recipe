@@ -115,6 +115,15 @@ tasks:
     src: https://github.com/renzuzu/renzu_vehicleshop
     dest: ./resources/[renzu]/renzu_vehicleshop
   - action: download_github
+    src: https://github.com/renzuzu/renzu_stancer
+    dest: ./resources/[renzu]/renzu_stancer
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_engine
+    dest: ./resources/[renzu]/renzu_engine
+  - action: download_github
+    src: https://github.com/renzuzu/renzu_nitro
+    dest: ./resources/[renzu]/renzu_nitro
+  - action: download_github
     src: https://github.com/renzuzu/renzu_garage
     dest: ./resources/[renzu]/renzu_garage
   #- action: move_path
