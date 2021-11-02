@@ -7,10 +7,10 @@
 **This Recipe is not runnning in TxAdmin you need to configure it manually**
 Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAdmin/blob/master/docs/recipe.md).
 
+**Please you may use Mysql5 or MariaDB, to improve performance with mysql-async**
+
 ## TODO:
 - [ ] add linden inventory
-- [ ] Maybe add this: https://github.com/czsquizer/sqz_carmenu
-- [ ] update database
 
 ## Changelog
 
