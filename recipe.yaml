@@ -120,6 +120,10 @@ tasks:
   - action: download_github
     src: https://github.com/renzuzu/renzu_engine
     dest: ./resources/[renzu]/renzu_engine
+  - action: replace_string
+    file: ./resources/[renzu]/renzu_engine/config.lua
+    search: "config.Mysql = 'oxmysql'"
+    replace: "config.Mysql = 'mysql-async'"
   - action: download_github
     src: https://github.com/renzuzu/renzu_nitro
     dest: ./resources/[renzu]/renzu_nitro
