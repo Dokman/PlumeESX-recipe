@@ -1,6 +1,6 @@
 $engine: 3
 $onesync: legacy
-name: RenzuESX
+name: RenzuESXLegacy
 version: 3.1.0
 author: Tabarra & SaltySea & Dokman
 description: A full featured and highly configurable yet lightweight ESX Legacy base that can be easily extended. 
