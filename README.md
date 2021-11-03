@@ -9,8 +9,10 @@ Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAd
 
 **Please you may use [MySQL 5](https://dev.mysql.com/downloads/windows/installer/5.7.html) or [MariaDB](https://mariadb.org/), to improve performance with mysql-async**
 
-## TODO:
-- [ ] add linden inventory
+## Requirements
+- [FXServer](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) > 4878 build
+- [Node.JS(LTS)](https://nodejs.org/es/)
+ - [Yarn]() Install Command - `npm install --global yarn`
 
 ## Changelog
 
@@ -49,3 +51,6 @@ Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAd
 - Fixed spawnpoint being inside the job listing marker;
 - Fixed vehicle ownership issues (solves cars not saving in garage);
 - Automatic admin for people that join the server for the first time with the `commands` ace permission.
+
+## TODO:
+- [ ] add linden inventory
