@@ -35,6 +35,12 @@ tasks:
   - action: download_github
     src: https://github.com/Dokman/esx-legacy
     ref: main
+    dest: ./resources/[cfx-default]
+    
+   # Download screenshot-basic
+    - action: download_github
+    src: https://github.com/citizenfx/screenshot-basic
+    ref: main
     dest: ./resources/[legacy]
 
   - action: download_github
