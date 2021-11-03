@@ -11,9 +11,9 @@ Please check the [**Recipe Documentation Page**](https://github.com/tabarra/txAd
 
 ## Requirements
 - [FXServer](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) > 4878 build
-- [MySQL 5](https://dev.mysql.com/downloads/windows/installer/5.7.html) or [MariaDB](https://mariadb.org/)
-- [Node.JS(LTS)](https://nodejs.org/es/)
- - [Yarn]() Install Command - `npm install --global yarn`
+- [MySQL 5](https://dev.mysql.com/downloads/windows/installer/5.7.html) or [MariaDB](https://mariadb.org/) to host the database of the server.
+- [Node.JS(LTS)](https://nodejs.org/es/) used by screenshot-basic
+ - [Yarn]() Install Command - `npm install --global yarn` used by screenshot-basic
 
 ## Changelog
 
