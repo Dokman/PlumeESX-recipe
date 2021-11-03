@@ -38,7 +38,7 @@ tasks:
     dest: ./resources/[cfx-default]
     
    # Download screenshot-basic
-    - action: download_github
+  - action: download_github
     src: https://github.com/citizenfx/screenshot-basic
     ref: main
     dest: ./resources/[legacy]
